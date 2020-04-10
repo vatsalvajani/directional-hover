@@ -43,7 +43,7 @@ function mouse_enters_obj(e){
 function mouse_leaves_obj(e){
   var w = $(this).width();
   var h = $(this).height();
-  var speed = 100;
+  var speed = 400;
   
   var x = (e.pageX - this.offsetLeft - (w/2)) * ( w > h ? (h/w) : 1 );
   var y = (e.pageY - this.offsetTop  - (h/2)) * ( h > w ? (w/h) : 1 );
