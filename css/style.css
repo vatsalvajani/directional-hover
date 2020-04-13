@@ -13,6 +13,15 @@
   left: 0; right: 0; }
 .hover-content .title {color: white; font-size: 68px; position: absolute; top: 50% !important; left: 50% !important; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); text-align: center; padding: 0; margin: 0;}
 
+/* masonary-layout */
+.masonary-layout .overlay-link img{height: 350px; object-fit: cover; object-position: center;}
+.masonary-layout .overlay-link:nth-of-type(1) img{width: 400px;}
+.masonary-layout .overlay-link:nth-of-type(2) img{width: 670px;}
+.masonary-layout .overlay-link:nth-of-type(3) img{width: 352px;}
+.masonary-layout .overlay-link:nth-of-type(4) img{width: 352px;}
+.masonary-layout .overlay-link:nth-of-type(5) img{width: 352px;}
+.masonary-layout .overlay-link:nth-of-type(6) img{width: 670px;}
+.masonary-layout .overlay-link:nth-of-type(7) img{width: 400px;}
 
 /* Responsive view */
 
@@ -37,20 +46,74 @@
 @media (max-width: 1199px){
 	.overlay-link img{width: 400px;}
 	.hover-content .title{font-size: 56px;}
+
+	.masonary-layout .overlay-link:nth-of-type(1) img{width: 350px;}
+	.masonary-layout .overlay-link:nth-of-type(2) img{width: 550px;}
+	.masonary-layout .overlay-link:nth-of-type(3) img{width: 295px;}
+	.masonary-layout .overlay-link:nth-of-type(4) img{width: 295px;}
+	.masonary-layout .overlay-link:nth-of-type(5) img{width: 295px;}
+	.masonary-layout .overlay-link:nth-of-type(6) img{width: 550px;}
+	.masonary-layout .overlay-link:nth-of-type(7) img{width: 350px;}
 }
 
 @media (max-width: 991px){
 	.overlay-link img{width: 340px;}
 	.hover-content .title{font-size: 48px;}
+	.masonary-layout .overlay-link img{height: 250px;}
+	.masonary-layout .overlay-link:nth-of-type(1) img{width: 270px;}
+	.masonary-layout .overlay-link:nth-of-type(2) img{width: 390px;}
+	.masonary-layout .overlay-link:nth-of-type(3) img{width: 215px;}
+	.masonary-layout .overlay-link:nth-of-type(4) img{width: 215px;}
+	.masonary-layout .overlay-link:nth-of-type(5) img{width: 215px;}
+	.masonary-layout .overlay-link:nth-of-type(6) img{width: 390px;}
+	.masonary-layout .overlay-link:nth-of-type(7) img{width: 270px;}
 }
 
 @media (max-width: 767px){
+	.overlay-link{margin: 0px;}
 	.overlay-link img {width: 250px;}
 	.hover-content .title{font-size: 36px;}
+	.masonary-layout .overlay-link img{height: 200px;}
+	.masonary-layout .overlay-link:nth-of-type(1) img{width: 210px;}
+	.masonary-layout .overlay-link:nth-of-type(2) img{width: 290px;}
+	.masonary-layout .overlay-link:nth-of-type(3) img{width: 250px;}
+	.masonary-layout .overlay-link:nth-of-type(4) img{width: 250px;}
+	.masonary-layout .overlay-link:nth-of-type(5) img{width: 505px;}
+	.masonary-layout .overlay-link:nth-of-type(6) img{width: 290px;}
+	.masonary-layout .overlay-link:nth-of-type(7) img{width: 210px;}
 }
 
 @media (max-width: 576px){
 	.direction-wrap{margin: 30px 0px;}
 	.direction-wrap h2{font-size: 32px; margin: 0 0 15px 0;}
-	.overlay-link img {width: 100%;}
+	.masonary-layout .overlay-link img{height: 150px;}
+	.masonary-layout .overlay-link:nth-of-type(1) img{width: 172px;}
+	.masonary-layout .overlay-link:nth-of-type(2) img{width: 252px;}
+	.masonary-layout .overlay-link:nth-of-type(3) img{width: 212px;}
+	.masonary-layout .overlay-link:nth-of-type(4) img{width: 212px;}
+	.masonary-layout .overlay-link:nth-of-type(5) img{width: 430px;}
+	.masonary-layout .overlay-link:nth-of-type(6) img{width: 252px;}
+	.masonary-layout .overlay-link:nth-of-type(7) img{width: 172px;}
+
+}
+
+@media (max-width: 480px){
+	.masonary-layout .overlay-link:nth-of-type(1) img{width: 145px;}
+	.masonary-layout .overlay-link:nth-of-type(2) img{width: 205px;}
+	.masonary-layout .overlay-link:nth-of-type(3) img{width: 175px;}
+	.masonary-layout .overlay-link:nth-of-type(4) img{width: 175px;}
+	.masonary-layout .overlay-link:nth-of-type(5) img{width: 355px;}
+	.masonary-layout .overlay-link:nth-of-type(6) img{width: 205px;}
+	.masonary-layout .overlay-link:nth-of-type(7) img{width: 145px;}
+}
+
+@media (max-width: 400px){
+	.masonary-layout .overlay-link img{height: 120px;}
+	.masonary-layout .overlay-link:nth-of-type(1) img{width: 115px;}
+	.masonary-layout .overlay-link:nth-of-type(2) img{width: 150px;}
+	.masonary-layout .overlay-link:nth-of-type(3) img{width: 132px;}
+	.masonary-layout .overlay-link:nth-of-type(4) img{width: 132px;}
+	.masonary-layout .overlay-link:nth-of-type(5) img{width: 270px;}
+	.masonary-layout .overlay-link:nth-of-type(6) img{width: 150px;}
+	.masonary-layout .overlay-link:nth-of-type(7) img{width: 115px;}
 }
